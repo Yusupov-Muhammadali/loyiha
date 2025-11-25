@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+     list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+img{
+    display: block;
+}
+
+.container{
+    max-width: 1008px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #000;
+    gap: 4px;
+    margin-right: auto;
+}
+.header__logo img{
+    width: 24px;
+    height: 24px;
+}
+.nav__list{
+    display: flex;
+    gap: 48px;
+    margin-right: 48px;
+}
+.nav__link{
+    color: #000;
+}
+.dark-mode{
+    width: 20px;
+    height: 20px;
+    background-image: url(./rasimlar/moon.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+.hero{
+    padding-top: 64px;
+    padding-bottom: 56px;
+}
+.hero__warapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__content{
+    width: 450px;
+}
+.hero__title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+}
+
+.hero__desc{
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%; 
+    margin-bottom: 48px;   
+}
+.hero__link{
+    display: flex;
+    width: 204px;
+    height: 64px;
+    border-radius: 64px;
+    justify-content: center;
+    align-items: center;
+    background-color: #dc3845;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.giving{
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+.giving__title-wrapper{
+    width: 205px;
+    margin: 0 auto;
+}
+.giving__title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 56px;
+}
+.giving__list{
+    display: flex;
+    gap: 128px;
+    justify-content: center;
+    
+}
+
+.giving__item{
+    width: 142px;
+}
+.giving__item img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 12px;
+}
+.giving__subtitile{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.giving__desc{
+     font-size: 14px;
+     line-height: 1;
+     letter-spacing: 0%;
+     text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.celebrate{
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+.celebrate__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.celebrate__img-wrapper{
+     width: 450px;
+}
+.celebrate__img-wrapper img{
+    width: 450px;
+}
+.celebrate__content{
+    width: 372px;
+}
+.celebrate__title{
+    width: 235px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 24px; 
+}
+.celebrate__desc{
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+    color: #5D5656;
+}
+.celebrate__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 215px;
+    height: 56px;
+    border-radius: 64px;
+    background-color: #DC3845;
+}
+
+
+
+
+
+
+
+
+
+
+.gift{
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+.gift__title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.gift__list{
+    width: 680px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.gift__item{
+    position: relative;
+    padding: 32px 40px 24px 24px;
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 24px 0px #aba8a8;
+}
+.gift__img{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 16px;
+}
+.gift__price{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 4px;
+}
+.gift__subtitle{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #5D5656;
+}
+.gift__like{
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(./rasimlar/like.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+.contact__wrapper{
+    padding: 50px 121px 50px 151px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DC3845;
+    border-radius: 32px;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+}
+.contact__title{
+font-weight: 600;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #fff;
+margin-bottom: 24px;
+}
+.contact__input{
+    width: 264px;
+    height: 55px;
+    padding: 0 24px;
+    border-radius: 64px;
+    margin-bottom: 13px;
+    border: none;
+}
+.contact__img-wrapper img {
+    width: 320px;
+}
+.contact__btn{
+    width: 143px;
+    height: 39px;
+    border-radius: 64px;
+    background-color: #282525;
+    color: #fff;
+    border: none;
+}
