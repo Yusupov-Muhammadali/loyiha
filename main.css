@@ -1,67 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-ul, ol{
-     list-style: none;
-}
-a{
-    text-decoration: none;
-}
-button{
-    cursor: pointer;
-}
-img{
-    display: block;
-}
-
-.container{
-    max-width: 1008px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.site-header{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-.header__wrapper{
-    display: flex;
-    align-items: center;
-}
-.header__logo{
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    color: #000;
-    gap: 4px;
-    margin-right: auto;
-}
-.header__logo img{
-    width: 24px;
-    height: 24px;
-}
-.nav__list{
-    display: flex;
-    gap: 48px;
-    margin-right: 48px;
-}
-.nav__link{
-    color: #000;
-}
-.dark-mode{
-    width: 20px;
-    height: 20px;
-    background-image: url(./rasimlar/moon.svg);
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: center;
-    border: none;
-    background-color: transparent;
-}
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        ul, ol {
+            list-style: none;
+        }
+        
+        :root {
+            --bg: #fff;
+            --text:#000000;
+        }
+        body.dark {
+            --bg: #000;
+            --text: #fff;
+        }
+        a {
+            text-decoration: none;
+        }
+        
+        body {
+            background-color: var(--bg);
+        }
+        
+        button {
+            cursor: pointer;
+        }
+        
+        .container {
+            max-width: 1220px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .site-header {
+            padding-top: 32px;
+            padding-bottom: 16px;
+        }
+        
+        .header__wrapper {
+            display: flex;
+            align-items: center;
+        }
+        
+        .header__logo {
+            margin-right: auto;
+        }
+        
+        .header__nav {
+            margin-right: 38px;
+        }
+        
+        .header__moon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+            top: 34px;
+            left: 1104px;
+            border: none;
+            background-color: transparent;
+        }        
+        .nav__list {
+            display: flex;
+            gap: 48px;
+        }
+        
+        .nav__link {
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: var(--text);
+        }
+        
+        .nav__link:hover {
+            color: #DC3845;
+        }
 
 
 
@@ -87,6 +104,8 @@ img{
     line-height: 140%;
     letter-spacing: 0%;
     margin-bottom: 16px;
+    color: var(--text);
+
 }
 
 .hero__desc{
@@ -94,6 +113,8 @@ img{
     line-height: 100%;
     letter-spacing: 0%; 
     margin-bottom: 48px;   
+    color: var(--text);
+
 }
 .hero__link{
     display: flex;
@@ -124,6 +145,7 @@ img{
 .giving__title-wrapper{
     width: 205px;
     margin: 0 auto;
+    color: var(--text);
 }
 .giving__title{
     font-weight: 600;
@@ -132,6 +154,7 @@ img{
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 56px;
+    color: var(--text);
 }
 .giving__list{
     display: flex;
@@ -155,12 +178,14 @@ img{
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 4px;
+    color: var(--text);
 }
 .giving__desc{
      font-size: 14px;
      line-height: 1;
      letter-spacing: 0%;
      text-align: center;
+     color: var(--text);
 }
 
 
@@ -196,12 +221,14 @@ img{
     line-height: 100%;
     letter-spacing: 0%;
     margin-bottom: 24px; 
+    color: var(--text);
 }
 .celebrate__desc{
     line-height: 100%;
     letter-spacing: 0%;
     margin-bottom: 40px;
     color: #5D5656;
+    color: var(--text);
 }
 .celebrate__link{
     display: flex;
@@ -234,6 +261,7 @@ img{
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 64px;
+    color: var(--text);
 }
 .gift__list{
     width: 680px;
@@ -268,6 +296,7 @@ img{
     line-height: 100%;
     letter-spacing: 0%;
     color: #5D5656;
+    color: var(--text);
 }
 .gift__like{
     top: 20px;
@@ -318,6 +347,7 @@ line-height: 100%;
 letter-spacing: 0%;
 color: #fff;
 margin-bottom: 24px;
+color: var(--text);
 }
 .contact__input{
     width: 264px;

@@ -7,35 +7,30 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <header class="site-header">
-    <div class="container header__wrapper">
-        <a href="" class="header__logo">
-            <img src="./rasimlar/qor.svg" alt="" class="header__logo">
-        </a>
+    <header class="site-header header">
         
-        <nav class="header__nav nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="" class="nav__link">Home</a>
-                </li>
-                <li class="nav__item">
-                    <a href="" class="nav__link">Celebrate</a>
-                </li>
-                <li class="nav__item">
-                    <a href="" class="nav__link">Gifts</a>
-                </li>
-                <li class="nav__item">
-                    <a href="" class="nav__link">New</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="header__actions">
-            <button class="header__moon">
-                <img src="./rasimlar/moon.svg" alt="">
-            </button>
-        </div>
-    </div>
-</header>
+        <div class="container header__wrapper">
+            
+            <a href="" class="header__logo">
+                <img src="./rasimlar/qor.svg" alt="Chtistmas's logo"> Christmas
+            </a>
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a
+                        
+                        
+                        href="" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Celebrate</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Gifts</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">New</a></li>
+                        
+                    </ul>
+                </nav>
+                <div class="header__actions">
+                    <button type="button" class="dark-mode"></button>
+                </div>
+            </div>
+        </header>
         
         <main>
             
@@ -154,12 +149,4 @@
         
         
     </body>
-    <script>
-    let elToggle = document.querySelector(".header__moon");
-    let elBody = document.querySelector("body");
-    
-    elToggle.addEventListener("click", function(){
-        elBody.classList.toggle("dark");
-    })
-</script>
     </html>
